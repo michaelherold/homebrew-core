@@ -131,7 +131,7 @@ class Podman < Formula
       ENV["HELPER_BINARIES_DIR"] = opt_libexec/"podman"
 
       system "make"
-      system "make", "install.bin", "install.remote", "install.man", "install.completions"
+      system "make", "install", "install.completions"
 
       (prefix/"etc/containers/policy.json").write <<~EOS
         {"default":[{"type":"insecureAcceptAnything"}]}
