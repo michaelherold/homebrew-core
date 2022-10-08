@@ -201,9 +201,6 @@ class Podman < Formula
       ].sort, Dir[libexec/"podman/*"].sort
       out = shell_output("file #{libexec}/podman/catatonit")
       assert_match "statically linked", out
-      out = shell_output("#{bin}/podman system info")
-      assert_match "networkBackend: netavark", out
-      assert_match "graphDriverName: overlay", out
     end
   end
 end
