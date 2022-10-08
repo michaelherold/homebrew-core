@@ -130,7 +130,7 @@ class Podman < Formula
       ENV["PREFIX"] = prefix
       ENV["HELPER_BINARIES_DIR"] = opt_libexec/"podman"
 
-      system "make", "podman", "podman-remote", "rootlessport", "docs"
+      system "make"
       system "make", "install.bin", "install.remote", "install.man", "install.completions"
 
       (prefix/"etc/containers/policy.json").write <<~EOS
