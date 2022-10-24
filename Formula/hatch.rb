@@ -3,8 +3,8 @@ class Hatch < Formula
 
   desc "Modern, extensible Python project management"
   homepage "https://hatch.pypa.io/latest/"
-  url "https://files.pythonhosted.org/packages/ff/61/92f38381f1cd234faf76da71d67b506ccd215d1cad5d476450b745739d90/hatch-1.6.1.tar.gz"
-  sha256 "2e50fd6edcc1de5a4c7e9b3b820a1bf61505a09bedab642f081dcc1acbbf6c44"
+  url "https://files.pythonhosted.org/packages/43/1c/3edd79015245dc33d0ebd6268f54fc40af1ceff9f7a5056c6bc042c96dd5/hatch-1.6.2.tar.gz"
+  sha256 "1adcdb0726cd74aaae39516423e5151d2cd0841c39975086c093a3f94d14638a"
   license "MIT"
 
   bottle do
@@ -22,8 +22,8 @@ class Hatch < Formula
   depends_on "six"
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/67/c4/fd50bbb2fb72532a4b778562e28ba581da15067cfb2537dbd3a2e64689c1/anyio-3.6.1.tar.gz"
-    sha256 "413adf95f93886e442aea925f3ee43baa5a765a64a0f52c6081894f9992fdd0b"
+    url "https://files.pythonhosted.org/packages/8b/94/6928d4345f2bc1beecbff03325cad43d320717f51ab74ab5a571324f4f5a/anyio-3.6.2.tar.gz"
+    sha256 "25ea0d673ae30af41a0c442f81cf3b38c7e79fdc7b60335a4c14e05eb0947421"
   end
 
   resource "certifi" do
@@ -62,8 +62,8 @@ class Hatch < Formula
   end
 
   resource "hatchling" do
-    url "https://files.pythonhosted.org/packages/cc/ea/b20914d39d99fa57166777406d5ce348b7249eb3f76cbcd8f2dae229b1d5/hatchling-1.11.0.tar.gz"
-    sha256 "a263a8c50817cd2dfcd4dd6d0d55a5ebcb078eeec9858cc3d056314b3438ec8f"
+    url "https://files.pythonhosted.org/packages/24/20/3e21d2bc57229822ac9fb9b314d7892c16f829f34a0eb247c55fc11e09a8/hatchling-1.11.1.tar.gz"
+    sha256 "9f84361f70cf3a7ab9543b0c3ecc64211ed2ba8a606a71eb6a473c1c9b08e1d0"
   end
 
   resource "httpcore" do
@@ -97,8 +97,8 @@ class Hatch < Formula
   end
 
   resource "more-itertools" do
-    url "https://files.pythonhosted.org/packages/c7/0c/fad24ca2c9283abc45a32b3bfc2a247376795683449f595ff1280c171396/more-itertools-8.14.0.tar.gz"
-    sha256 "c09443cd3d5438b8dafccd867a6bc1cb0894389e90cb53d227456b0b0bccb750"
+    url "https://files.pythonhosted.org/packages/13/b3/397aa9668da8b1f0c307bc474608653d46122ae0563d1d32f60e24fa0cbd/more-itertools-9.0.0.tar.gz"
+    sha256 "5a6257e40878ef0520b1803990e3e22303a41b5714006c32a3fd8304b26ea1ab"
   end
 
   resource "packaging" do
